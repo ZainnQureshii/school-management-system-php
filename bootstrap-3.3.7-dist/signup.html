@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+	<!-- Latest font-awesome -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- jQuery library -->
+	<script src="./bootstrap-3.3.7-dist/jquery/jquery.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    
+    <meta charset="UTF-8">
+    
+    <title>Sign Up</title>
+	
+	<style>
+		*{
+			margin: 0%;
+			padding: 0%;
+			font-variant: small-caps;
+		}	
+
+		.container{
+			width: 50%;
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+            transition: 700ms;
+		}
+
+        .container:hover{
+            border: 0;
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.6);
+        }
+    </style>
+    
+</head>
+<body>
+	<br>
+	<br>
+	<br>
+	<div class="container">
+		<div class="header"><h2>School Management System</h2><hr></div>
+		<div class="body">
+			<form class="form" method="POST">
+                <label><span class="fa fa-user"></span> Full Name</label>
+                <input type="text" id="fname" name="fname" class="form-control" placeholder="Enter Full Name" required="">
+                <br>
+                <label><span class="fa fa-user"></span> Email</label>
+                <input type="text" id="email" name="email" class="form-control" placeholder="Enter Email Address" required="">
+                <br>
+				<label><span class="fa fa-user"></span> Username</label>
+				<input type="text" id="name" name="name" class="form-control" placeholder="Enter Username" required="">
+				<br>
+				<label><span class="fa fa-key"></span> Password</label>
+				<input type="password" id="pass" name="pass" class="form-control" placeholder="Enter Password" required="">
+				<br>
+				<label><span class="fa fa-key"></span> Confirm Password</label>
+				<input type="password" id="cpass" name="cpass" class="form-control" placeholder="Enter Confirm Password" required="">
+				<br>
+				<button type="submit" class="btn btn-primary">Sign Up</button>
+				<hr>
+				<h5>Already a member? Sign In <a href="login.html">Here</a></h5>
+			</form>
+		</div>
+	</div>
+
+	
+</body>
+</html>

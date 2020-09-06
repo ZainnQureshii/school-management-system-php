@@ -1,0 +1,33 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-variant: small-caps;
+    background-color: #66CCFF;
+}
+body{
+    background-color: #66CCFF;
+}
+.logo > *{
+    background-color: #fff;
+}
+.container{
+    margin-top: 50px;
+    background-color: #fff;
+    width: 50%;
+    box-shadow: -2px 1px 15px rgba(0, 0, 0, 0.5);
+    transition: 700ms;
+    border-radius: 6%;    
+}
+.container > *{
+    background-color: #fff;
+}
+.container label,.container form i,.container h2{background-color: #fff;}
+.container img{
+    float:right;
+}
+.container:hover{
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
+}
+.btn{
+    font-weight: 600;
+}
